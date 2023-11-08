@@ -1,0 +1,13 @@
+/*
+
+Il faut cacher les images sauf celle qui est .active.
+Même chose pour les <article>
+
+*/
+.actif {
+    background-color: yellow; 
+    color: black; 
+  }
+  .images img.active {
+    display: block;
+  }
